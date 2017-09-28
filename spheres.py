@@ -1,12 +1,12 @@
 #! /usr/bin/env python
+__author__ = 'Arana Fireheart'
+
 from math import pi
 
 # This is an example of a function with an optional parameter
 # The optional parameter was added as an upgrade to handle
 # griviances about the lack of a "report and crash" mode
 # of operation.
-
-__author__ = 'Arana Fireheart'
 
 def avSphere(radius, raiseError = True, errorMessage = ""):
     surfaceArea = 4 * pi * radius ** 2
@@ -20,6 +20,8 @@ def avSphere(radius, raiseError = True, errorMessage = ""):
             print(errorMessage)
             return (abs(surfaceArea), abs(volume))
 
+
+# The following code are test cases for my function.
 
 print(avSphere(3))
 print(avSphere(43.5))
