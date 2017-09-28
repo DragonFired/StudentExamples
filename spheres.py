@@ -1,6 +1,11 @@
 #! /usr/bin/env python
 from math import pi
 
+# This is an example of a function with an optional parameter
+# The optional parameter was added as an upgrade to handle
+# griviances about the lack of a "report and crash" mode
+# of operation.
+
 __author__ = 'Arana Fireheart'
 
 def avSphere(radius, raiseError = True, errorMessage = ""):
